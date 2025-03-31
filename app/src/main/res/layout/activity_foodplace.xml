@@ -17,6 +17,7 @@
         android:layout_height="65dp"
         android:gravity="center"
         android:textSize="48sp"
+        android:layout_marginBottom="10dp"
         android:text="Food Places" />
 
     <EditText
@@ -40,7 +41,7 @@
     <TextView
         android:id="@+id/foodPlcDisp"
         android:layout_width="match_parent"
-        android:layout_height="180dp"
+        android:layout_height="250dp"
         android:hint="Results"
         android:textSize="28sp"
         android:gravity="center"

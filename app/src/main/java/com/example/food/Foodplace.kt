@@ -87,7 +87,7 @@ class Foodplace : AppCompatActivity() {
                     "dusk" -> foodPlcDisp.text = "1.Pizza Hut \n\n 2.Mochachos \n\n 3.Fishaways "
 
                     "evening" -> foodPlcDisp.text =
-                        "1.Turn 'n Tender \n\n 2.Ocean Basket \n\n 3.Tasha's"
+                        "1.Turn 'n Tender \n\n 2.Ocean Basket \n\n 3.Tashas"
 
                     "night" -> foodPlcDisp.text =
                         "1.Woolworths \n\n 2. KFC \n\n 3.Milky Lane \n\n 4.McDonald's "
