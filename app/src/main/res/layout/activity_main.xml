@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:textSize="45sp"
+        android:text="Food Suggestion" />
+
+    <EditText
+        android:id="@+id/foodTxt"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:inputType="text"
+        android:hint="Enter a time period"
+        android:textAlignment="center"
+        android:text="" />
+
+    <Button
+        android:id="@+id/btnMeal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:insetLeft="60dp"
+        android:insetRight="60dp"
+        android:text="Suggest Meal" />
+
+    <Button
+        android:id="@+id/btnClear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:insetLeft="60dp"
+        android:insetRight="60dp"
+        android:text="Clear Text" />
+
+    <TextView
+        android:id="@+id/foodDisp"
+        android:layout_width="match_parent"
+        android:layout_height="270dp"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:hint="Results"
+        android:text="" />
+
+    <Button
+        android:id="@+id/btnRst"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:insetLeft="60dp"
+        android:insetRight="60dp"
+        android:text="Reset" />
+
+    <Button
+        android:id="@+id/btnExit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:insetLeft="60dp"
+        android:insetRight="60dp"
+        android:text="Exit" />
+
+
+</LinearLayout>
