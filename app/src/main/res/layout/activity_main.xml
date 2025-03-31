@@ -51,12 +51,12 @@
         android:text="" />
 
     <Button
-        android:id="@+id/btnRst"
+        android:id="@+id/btnfoodplcs"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:insetLeft="60dp"
         android:insetRight="60dp"
-        android:text="Reset" />
+        android:text="Food Places" />
 
     <Button
         android:id="@+id/btnExit"

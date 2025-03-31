@@ -1,5 +1,6 @@
 package com.example.food
 
+import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
@@ -18,7 +19,7 @@ class MainActivity : AppCompatActivity() {
     private lateinit var btnMeal : Button
     private lateinit var btnClear : Button
     private lateinit var foodDisp : TextView
-    private lateinit var btnRst : Button
+    private lateinit var btnfoodplcs : Button
     private lateinit var btnExit : Button
 
 
@@ -35,7 +36,7 @@ class MainActivity : AppCompatActivity() {
         btnMeal = findViewById(R.id.btnMeal)
         btnClear = findViewById(R.id.btnClear)
         foodDisp = findViewById(R.id.foodDisp)
-        btnRst = findViewById(R.id.btnRst)
+        btnfoodplcs = findViewById(R.id.btnfoodplcs)
         btnExit = findViewById(R.id.btnExit)
 
         btnMeal.setOnClickListener{
@@ -46,8 +47,10 @@ class MainActivity : AppCompatActivity() {
             handleBtnClearClick()
         }
 
-        btnRst.setOnClickListener{
-            handleBtnRstClick()
+        btnfoodplcs.setOnClickListener{
+            val intent = Intent( this, Foodplace::class.java)
+            startActivity(intent)
+
         }
 
         btnExit.setOnClickListener{
@@ -102,14 +105,10 @@ class MainActivity : AppCompatActivity() {
 
     private fun handleBtnClearClick(){
         foodTxt.text.clear()
-        Toast.makeText(this, "Please enter the following values: Dawn, Morning, Afternoon, Dusk, Evening, Night", Toast.LENGTH_LONG).show()
-    }
-
-    private fun handleBtnRstClick(){
-        foodTxt.text.clear()
         foodDisp.text = ""
         Toast.makeText(this, "Please enter the following values: Dawn, Morning, Afternoon, Dusk, Evening, Night", Toast.LENGTH_LONG).show()
     }
+
 
 
 

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center"
+    tools:context=".Foodplace">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:gravity="center"
+        android:textSize="48sp"
+        android:text="Food Places" />
+
+    <EditText
+        android:id="@+id/foodplctxt"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text=""
+        android:textSize="28sp"
+        android:gravity="center"
+        android:hint="Enter Food place"/>
+
+
+    <Button
+        android:id="@+id/btnFoodSuggest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:insetLeft="50dp"
+        android:insetRight="50dp"
+        android:text="Food Place Suggestions" />
+
+    <TextView
+        android:id="@+id/foodPlcDisp"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:hint="Results"
+        android:textSize="28sp"
+        android:gravity="center"
+        android:text="" />
+
+    <Button
+        android:id="@+id/btnReset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:insetLeft="50dp"
+        android:insetRight="50dp"
+        android:text="Clear" />
+
+    <Button
+        android:id="@+id/btnHome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:insetLeft="50dp"
+        android:insetRight="50dp"
+        android:text="Return To Home" />
+
+    <Button
+        android:id="@+id/btnExt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:insetLeft="50dp"
+        android:insetRight="50dp"
+        android:text="Exit" />
+
+
+</LinearLayout>
