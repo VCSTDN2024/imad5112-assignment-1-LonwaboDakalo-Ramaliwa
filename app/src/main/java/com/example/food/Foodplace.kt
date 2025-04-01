@@ -38,7 +38,7 @@ class Foodplace : AppCompatActivity() {
         val btnhome = findViewById<Button>(R.id.btnHome)
 
         btnFoodSuggest.setOnClickListener{
-            handlebtnMealClick()
+            handlebtnMealClick()//code will be connected below//
         }
 
         btnReset.setOnClickListener{
@@ -53,14 +53,14 @@ class Foodplace : AppCompatActivity() {
 
         btnExt.setOnClickListener{
             finishAffinity()
-            exitProcess(0)
+            exitProcess(0)//Simplified version of the exit function//
         }
 
     }
     private fun isNotEmpty(): Boolean {
         var b = true
         if (foodplctxt?.text.toString().trim().isEmpty()) {
-            foodplctxt?.error = "input required.Please enter the following values: Dawn, Morning, Afternoon, Dusk, Evening, Night "
+            foodplctxt?.error = "input required.Enter: Dawn/ Morning/ Afternoon/ Dusk/ Evening/ Snack"
             b = false
         }
         return b
@@ -76,7 +76,7 @@ class Foodplace : AppCompatActivity() {
 
 
                 when (mealInput) {
-                    "dawn" -> foodPlcDisp.text = "1.McDonald's \n \n 2.KFC \n\n 3.Chicken Licken  "
+                    "dawn" -> foodPlcDisp.text = "1.McDonald's \n \n 2.KFC \n\n 3.Chicken Licken  " // 3 Food Establishments//
 
                     "morning" -> foodPlcDisp.text =
                         "1.Wimpy \n\n 2.Mugg and Bean \n\n 3.Spur"
@@ -89,10 +89,10 @@ class Foodplace : AppCompatActivity() {
                     "evening" -> foodPlcDisp.text =
                         "1.Turn 'n Tender \n\n 2.Ocean Basket \n\n 3.Tashas"
 
-                    "night" -> foodPlcDisp.text =
+                    "snack" -> foodPlcDisp.text =
                         "1.Woolworths \n\n 2. KFC \n\n 3.Milky Lane \n\n 4.McDonald's "
 
-                    else -> {
+                    else -> {//If incorrect input is inserted//
                         foodPlcDisp.text = "Please enter a time period of a day."
                         Toast.makeText(this, "Please enter a time period of a day.", Toast.LENGTH_LONG).show()
                     }
@@ -103,7 +103,7 @@ class Foodplace : AppCompatActivity() {
     private fun handleBtnResetClick(){
         foodplctxt.text.clear()
         foodPlcDisp.text = ""
-        Toast.makeText(this, "Please enter the following values: Dawn, Morning, Afternoon, Dusk, Evening, Night", Toast.LENGTH_LONG).show()
+        Toast.makeText(this, "Enter: Dawn/ Morning/ Afternoon/ Dusk/ Evening/ Snack", Toast.LENGTH_LONG).show()// Toast displays input that must be entered//
     }
 
 

@@ -39,7 +39,7 @@ class MainActivity : AppCompatActivity() {
         btnfoodplcs = findViewById(R.id.btnfoodplcs)
         btnExit = findViewById(R.id.btnExit)
 
-        btnMeal.setOnClickListener{
+        btnMeal.setOnClickListener{ //code will be connected below//
             handlebtnMealClick()
         }
 
@@ -48,21 +48,21 @@ class MainActivity : AppCompatActivity() {
         }
 
         btnfoodplcs.setOnClickListener{
-            val intent = Intent( this, Foodplace::class.java)
+            val intent = Intent( this, Foodplace::class.java) //Takes to second page: Food Place //
             startActivity(intent)
 
         }
 
         btnExit.setOnClickListener{
             finishAffinity()
-            exitProcess(0)
+            exitProcess(0)//Simplified version of the exit function//
         }
 
     }
     private fun isNotEmpty(): Boolean {
         var b = true
         if (foodTxt?.text.toString().trim().isEmpty()) {
-            foodTxt?.error = "input required.Please enter the following values: Dawn, Morning, Afternoon, Dusk, Evening, Night "
+            foodTxt?.error = "input required.Enter: Dawn/ Morning/ Afternoon/ Dusk/ Evening/ Snack" //Prevents textbox from being left empty//
             b = false
         }
         return b
@@ -73,12 +73,12 @@ class MainActivity : AppCompatActivity() {
     private fun handlebtnMealClick() {
 
         if (isNotEmpty()) {
-            val mealInput = foodTxt.text.toString().trim().lowercase()
+            val mealInput = foodTxt.text.toString().trim().lowercase() //Accepts the correct text whether Capital or Lowercase//
             if (mealInput.isNotEmpty()) {
 
 
-                when (mealInput) {
-                    "dawn" -> foodDisp.text = "1.Fruit Salad \n \n 2.Cereal\n\n 3.Fruit Smoothie"
+                when (mealInput) {// /n separates text and starts the next text on a new line //
+                    "dawn" -> foodDisp.text = "1.Fruit Salad \n \n 2.Cereal\n\n 3.Fruit Smoothie"// 3 Food Options//
 
                     "morning" -> foodDisp.text =
                         "1.Cheese Sandwich \n\n 2.Bacon and Egg Omelette \n\n 3.Pancakes"
@@ -91,7 +91,7 @@ class MainActivity : AppCompatActivity() {
                     "evening" -> foodDisp.text =
                         "1.Mash potatoes and salmon \n\n 2.Samp Beans and Chicken\n\n 3.Spaghetti Bolognese"
 
-                    "night" -> foodDisp.text =
+                    "snack" -> foodDisp.text =
                         "1.Cake \n\n 2.Koeksusters \n\n 3.Vanilla Muffin \n\n 4.Malva Pudding"
 
                     else -> {
@@ -105,8 +105,8 @@ class MainActivity : AppCompatActivity() {
 
     private fun handleBtnClearClick(){
         foodTxt.text.clear()
-        foodDisp.text = ""
-        Toast.makeText(this, "Please enter the following values: Dawn, Morning, Afternoon, Dusk, Evening, Night", Toast.LENGTH_LONG).show()
+        foodDisp.text = "" ////
+        Toast.makeText(this, "Enter: Dawn/ Morning/ Afternoon/ Dusk/ Evening/ Snack", Toast.LENGTH_LONG).show()// Toast displays input that must be entered//
     }
 
 
