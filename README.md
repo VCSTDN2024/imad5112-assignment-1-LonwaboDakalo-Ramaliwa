@@ -11,8 +11,7 @@
 ## Links
 - **GitHub Repository**: VCSTDN2024/imad5112-assignment-1-LonwaboDakalo-Ramaliwa: imad5112-assignment-1-LonwaboDakalo-Ramaliwa created by GitHub Classroom 
 - **YouTube Video**: https://youtu.be/AxKevJYnAKk
-
-```
+----
 
 
 2. Project Overview
