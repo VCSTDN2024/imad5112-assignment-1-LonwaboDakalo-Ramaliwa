@@ -28,7 +28,7 @@
         android:text=""
         android:textSize="28sp"
         android:gravity="center"
-        android:hint="Enter Food place"/>
+        android:hint="Enter Time period of the Day"/>
 
 
     <Button

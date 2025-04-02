@@ -1,3 +1,17 @@
+/* Reference List
+
+# **Code Snippet**
+- Garanganga, K., 2025. Generation App. [Accessed 19 March 2025].
+- Garanganga, K., 2025. Calculator App. [Accessed 19 March 2025].
+
+# **YouTube**
+- Kincade Garanganga, 2024. IMAD5112 Practicum Discussion 2024. Available at: <IMAD5112 Practicum Discussion 2024>. [Accessed 15 March 2025].
+- Zahra bulbulia, 2024. GitHub Android Studio. Available at: <GitHub Android Studio>. [Accessed 30 March 2025].
+- Natalia Klenova's Shop. Asian food background stock photo containing asian and background. [image online]. Available at:< Asian food background stock photo containing asian and background, a Food & Drink Photo by Natalia Klenova's Shop | Creative Market> [Accessed 30 March 2025].
+ */
+
+
+
 package com.example.food
 
 import android.content.Intent
