@@ -20,7 +20,7 @@ The purpose
 ----
 ## Project Overview
 
-The Meal and Food Establishment App is a mobile app developed as part of an assignment in the [IMAD5112] subject. This application was developed using the programming language **Kotlin** and developer app **Android Studio**. The app's primary purpose is to provide users with a meal suggestion after the correct input is inserted into the app.
+The Meal and Food Establishment App is a mobile app developed as part of an assignment in the IMAD5112 subject. This application was developed using the programming language **Kotlin** and developer app **Android Studio**. The app's primary purpose is to provide users with a meal suggestion after the correct input is inserted into the app.
 
 The app is developed to meet the requirements of the assignment which entails being a functional app that users can smoothly use and operates correctly with the correct logical and purpose and utilizing GitHub for version control and CI/CD automation using GitHub Actions.
 
