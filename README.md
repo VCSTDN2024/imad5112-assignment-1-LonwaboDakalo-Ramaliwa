@@ -9,8 +9,8 @@
 - **IIE Higher Certificate in Mobile Application and Web Development**
 - **IMAD5112**
 ## Links
-- **GitHub Repository**: [VCSTDN2024/imad5112-assignment-1-LonwaboDakalo-Ramaliwa: imad5112-assignment-1-LonwaboDakalo-Ramaliwa created by GitHub Classroom ]
-- **YouTube Video**: [https://youtu.be/AxKevJYnAKk]
+- **GitHub Repository**: VCSTDN2024/imad5112-assignment-1-LonwaboDakalo-Ramaliwa: imad5112-assignment-1-LonwaboDakalo-Ramaliwa created by GitHub Classroom 
+- **YouTube Video**: https://youtu.be/AxKevJYnAKk
 
 ```
 
@@ -30,7 +30,7 @@ The app is developed to meet the requirements of the assignment which entails be
 3. App Purpose and Features
 ---------------------------
 
-```markdown
+
 ## Purpose and Features
 
 ### Purpose:
@@ -60,7 +60,7 @@ Reasoning:
 4. Design Considerations
 ------------------------
 
-```markdown
+
 ## Design Considerations
 
 The design of the **Meal and Food Establishment App** was based on the following key considerations:
@@ -88,9 +88,37 @@ I utilized **GitHub Actions** to automate the build and deployment process. This
 - Uploading these build artifacts to GitHub for easy access.
 
 The workflow ensures that my project is automatically built and tested every time I push changes, and it simplifies the process of delivering the final APK/AAB files for submission.
------
+-------------------------------------
+
+---
+6. Screenshots and App Demo
+---------------------------
+
+**### App Screenshots:**
 
 
+![Screenshot 2025-04-02 090323](https://github.com/user-attachments/assets/b7649ed8-92c0-4d0d-8491-549bd5a37342)
+*Caption for screenshot 1: [Describe the context, e.g., "The home screen of the app showing the task list."]*
+
+![2](https://github.com/user-attachments/assets/55360ed2-23ef-458b-928d-5e937930252c)
+*Caption for screenshot 2: [Describe the context, e.g., "The user profile screen where personal information is updated."]*
+
+![3](https://github.com/user-attachments/assets/90133090-123c-42bb-998b-6f032750ed45)
+*Caption for screenshot 3: [Describe the context, e.g., "The user profile screen where personal information is updated."]*
+
+![4](https://github.com/user-attachments/assets/377a0de4-9911-444e-a022-61f5c80328ce)
+*Caption for screenshot 4: [Describe the context, e.g., "The user profile screen where personal information is updated."]*
+
+
+![5](https://github.com/user-attachments/assets/2a38caa5-5cc9-413b-afc0-e281666fa2af)
+*Caption for screenshot 5: [Describe the context, e.g., "The user profile screen where personal information is updated."]*
+
+
+![6](https://github.com/user-attachments/assets/e131c9f6-01b2-480c-ab89-72a72a8698b6)
+*Caption for screenshot 6: [Describe the context, e.g., "The user profile screen where personal information is updated."]*
+
+### Video Demo:
+**App showcase:** https://www.youtube.com/watch?v=AxKevJYnAKk.
 
 Reasoning:
 ----
@@ -101,7 +129,7 @@ Reasoning:
 7. Challenges and Learnings
 ---------------------------
 
-```markdown
+
 ## Challenges and Learnings
 
 During the development of this project, I experienced many problems such as:
@@ -113,16 +141,16 @@ During the development of this project, I experienced many problems such as:
    - **Solution**: Inserting a background colour to the whole app, changing the colour of the buttons and inserting an image to the bottom of both pages of my app
 
 3. **Challenge 3**: My readme got deleted 
- - **Solution**: Creating a backup document on word or notepad so I can easily retrieve my data in the event it gets lost again and avoid the hassle of restarting the whole document.
+   - **Solution**: Creating a backup document on word or notepad so I can easily retrieve my data in the event it gets lost again and avoid the hassle of restarting the whole document.
 
 From these challenges, I learned important lessons in keeping backups in the event of accidents to not lose progress in the work done, having a clear idea when developing an app and allowing your ideas to influence the app’s design. It is important to focus on the main task, so the other factors need to be placed on hold until that is completely taken care of.
-```
----
+
+
 
 8. Future Enhancements
 ----------------------
 
-```markdown
+```
 ## Future Enhancements
 Features that can be added in the future:
 
@@ -142,13 +170,14 @@ It is here to allow the users to relax when using and the app and will work much
 
 - **Feature 3**:  Having a picture background instead of a background colour.
 It attracts the user’s attention more easily and is more visually pleasing and engaging compared to an app with a background colour.
- 
-**These features are here to make an amazing experience for the users of the app and allow the app to be an engaging entertainment than another stress factor because of its complex nature**
+
+These features are here to make an amazing experience for the users of the app and allow the app to be an engaging entertainment than another stress factor because of its complex nature
+
 ---
 
-9. References
+9. **References**
 -------------
-## References
+
 ----
 # **Code Snippet**
 - Garanganga, K., 2025. Generation App. [Accessed 19 March 2025].
@@ -160,10 +189,10 @@ It attracts the user’s attention more easily and is more visually pleasing and
 
 ---
 
-10. List of Figures
+10. **List of Figures**
 -------------------
 
-```markdown
+```
 ## List of Figures
 
 - **Figure 1**: Screenshot of the app's home screen.
