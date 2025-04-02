@@ -18,7 +18,7 @@
 2. Project Overview
 -------------------
 The purpose
-```markdown
+----
 ## Project Overview
 
 The Meal and Food Establishment App is a mobile app developed as part of an assignment in the [IMAD5112] subject. This application was developed using the programming language **Kotlin** and developer app **Android Studio**. The app's primary purpose is to provide users with a meal suggestion after the correct input is inserted into the app.
@@ -44,7 +44,7 @@ The main goal of this app is to provide users with a meal suggestion when the co
 - Feature 5: Accepts correct text written in any format
 
 These features aim to provide users with a simple to use and understand app that ensures only when the correct input inserted will the user be able to operate the app and text will be displayed if the user uses the incorrect input 
-```
+-----
 
 Reasoning:
 ----
@@ -98,24 +98,22 @@ The workflow ensures that my project is automatically built and tested every tim
 
 
 ![Screenshot 2025-04-02 090323](https://github.com/user-attachments/assets/b7649ed8-92c0-4d0d-8491-549bd5a37342)
-*Caption for screenshot 1: [Describe the context, e.g., "The home screen of the app showing the task list."]*
+*Caption for screenshot 1: The home screen of the app before input is inserted
 
 ![2](https://github.com/user-attachments/assets/55360ed2-23ef-458b-928d-5e937930252c)
-*Caption for screenshot 2: [Describe the context, e.g., "The user profile screen where personal information is updated."]*
+*Caption for screenshot 2: Output is presented for correct input on the home screen
 
 ![3](https://github.com/user-attachments/assets/90133090-123c-42bb-998b-6f032750ed45)
-*Caption for screenshot 3: [Describe the context, e.g., "The user profile screen where personal information is updated."]*
+*Caption for screenshot 3: The second screen of the app before input is inserted
 
 ![4](https://github.com/user-attachments/assets/377a0de4-9911-444e-a022-61f5c80328ce)
-*Caption for screenshot 4: [Describe the context, e.g., "The user profile screen where personal information is updated."]*
-
+*Caption for screenshot 4: Output is presented for correct input on the second screen
 
 ![5](https://github.com/user-attachments/assets/2a38caa5-5cc9-413b-afc0-e281666fa2af)
-*Caption for screenshot 5: [Describe the context, e.g., "The user profile screen where personal information is updated."]*
-
+*Caption for screenshot 5: An example of the error handling
 
 ![6](https://github.com/user-attachments/assets/e131c9f6-01b2-480c-ab89-72a72a8698b6)
-*Caption for screenshot 6: [Describe the context, e.g., "The user profile screen where personal information is updated."]*
+*Caption for screenshot 6: An example of the toast message presented to users
 
 ### Video Demo:
 **App showcase:** https://www.youtube.com/watch?v=AxKevJYnAKk.
