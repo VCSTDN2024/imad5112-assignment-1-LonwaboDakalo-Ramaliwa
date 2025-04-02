@@ -95,11 +95,25 @@ The workflow ensures that my project is automatically built and tested every tim
 ---------------------------
 
 ### App Screenshots:
-![Screenshot 1](path_to_screenshot_1.png)
+![1](https://github.com/user-attachments/assets/2a3d8ba6-d5df-4656-9715-be24173b2c87)
 *Caption for screenshot 1: [Describe the context, e.g., "The home screen of the app showing the task list."]*
 
-![Screenshot 2](path_to_screenshot_2.png)
+![2](https://github.com/user-attachments/assets/55360ed2-23ef-458b-928d-5e937930252c)
 *Caption for screenshot 2: [Describe the context, e.g., "The user profile screen where personal information is updated."]*
+
+![3](https://github.com/user-attachments/assets/90133090-123c-42bb-998b-6f032750ed45)
+*Caption for screenshot 3: [Describe the context, e.g., "The user profile screen where personal information is updated."]*
+
+![4](https://github.com/user-attachments/assets/377a0de4-9911-444e-a022-61f5c80328ce)
+*Caption for screenshot 4: [Describe the context, e.g., "The user profile screen where personal information is updated."]*
+
+
+![5](https://github.com/user-attachments/assets/2a38caa5-5cc9-413b-afc0-e281666fa2af)
+*Caption for screenshot 5: [Describe the context, e.g., "The user profile screen where personal information is updated."]*
+
+
+![6](https://github.com/user-attachments/assets/e131c9f6-01b2-480c-ab89-72a72a8698b6)
+*Caption for screenshot 6: [Describe the context, e.g., "The user profile screen where personal information is updated."]*
 
 ### Video Demo:
 A video showcasing the app's functionality can be viewed here: [YouTube Video Link].
